@@ -13,9 +13,10 @@ p:first-of-type {
 
 li {
 	color:blue;
+	float: left;
 }
 
-ol.menu {
+ul.menu {
 	padding: 0px;
 }
 
