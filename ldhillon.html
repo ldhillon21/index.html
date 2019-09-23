@@ -3,6 +3,65 @@
 <head>
 <title>HW 1</title>
 <!-- style=CSS inside the page -->
+p {
+	color: rgb(255,0,0);
+}
+
+p:first-of-type {
+	color: green;
+	/*background: lightblue;*/
+}
+
+li {
+	color:blue;
+}
+
+ol.menu {
+	padding: 0px;
+}
+
+li.menu {
+	list-style-type: none;
+	padding: 0px;
+	padding-left: 5px;
+	margin: 0px;
+	margin-left: 0px;
+	height:30px;
+	width: 150px;
+}
+
+li.menu:hover {
+	background: lightblue;
+}
+
+.mydiv {
+	/*background: lightblue;*/
+}
+
+div.menu {
+	float: left;
+	background: orange;
+	margin: 0px;
+}
+
+#title {
+	background: red;
+	margin: 0px;
+	text-align: center;
+}
+
+.contents {
+	background: lightgreen;
+	margin: 0px;
+}
+
+h1 {
+	padding: 0px;
+}
+
+span.harry {
+	font-size:20px;
+}
 
 <link rel=stylesheet href='style.css'>
 </head>
@@ -42,6 +101,16 @@ I mean no disrespect, I just hate html.
 </a>
 
 <img width=400px alt='Good ole Mike' src="https://www.cmc.edu/sites/default/files/styles/faculty_profile/public/media/academic/faculty/profile/37391.jpg?itok=icH3rd2h" />
+
+<div class= mydiv>
+Here is the information for Prof Izbicki's CS class
+<div class=menu>
+<ol class=menu>
+<li class=menu>Here is </li>
+<li class=menu>Sleep</li>
+<a href="https://www.reddit.com/user/PokerPirate/"><li class=menu>Stalk his reddit account</li></a>
+<li class=menu>Anything else</li>
+
 <!-- NEVER MAKES SENSE: </img> because it is a "self closing tag" -->
 
 <!-- <table>
