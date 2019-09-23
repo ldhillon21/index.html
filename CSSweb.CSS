@@ -56,20 +56,12 @@ div.menu {
 }
 
 #title {
-	background: red;
+	background: blue;
 	margin: 0px;
 	text-align: center;
 }
 
-.contents {
-	background: lightgreen;
-	margin: 0px;
-}
 
-h1 {
-	padding: 0px;
-}
 
-span.harry {
-	font-size:20px;
-}
+
+
