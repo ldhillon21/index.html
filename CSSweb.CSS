@@ -14,7 +14,7 @@ body{
 	background-color:  #00FFFF;
 }
 @media only screen and (max-width: 600px) {
-  body {
+  body.index {
     background-color: lightblue;
   }
 }
